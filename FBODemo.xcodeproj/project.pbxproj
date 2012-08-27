@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B505E05315EBFD89009EEB90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505E05215EBFD89009EEB90 /* Cocoa.framework */; };
+		B505E05D15EBFD89009EEB90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B505E05B15EBFD89009EEB90 /* InfoPlist.strings */; };
+		B505E05F15EBFD89009EEB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E05E15EBFD89009EEB90 /* main.m */; };
+		B505E06315EBFD89009EEB90 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B505E06115EBFD89009EEB90 /* Credits.rtf */; };
+		B505E06615EBFD89009EEB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E06515EBFD89009EEB90 /* AppDelegate.m */; };
+		B505E06915EBFD8A009EEB90 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B505E06715EBFD8A009EEB90 /* MainMenu.xib */; };
+		B505E07115EBFEB0009EEB90 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E07015EBFEB0009EEB90 /* MyOpenGLView.m */; };
+		B505E07D15EC007D009EEB90 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505E07C15EC007D009EEB90 /* OpenGL.framework */; };
+		B505E08315EC00E1009EEB90 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505E08215EC00E1009EEB90 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B505E04E15EBFD89009EEB90 /* FBODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B505E05215EBFD89009EEB90 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B505E05515EBFD89009EEB90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B505E05615EBFD89009EEB90 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B505E05715EBFD89009EEB90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B505E05A15EBFD89009EEB90 /* FBODemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBODemo-Info.plist"; sourceTree = "<group>"; };
+		B505E05C15EBFD89009EEB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B505E05E15EBFD89009EEB90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B505E06015EBFD89009EEB90 /* FBODemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBODemo-Prefix.pch"; sourceTree = "<group>"; };
+		B505E06215EBFD89009EEB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B505E06415EBFD89009EEB90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B505E06515EBFD89009EEB90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B505E06815EBFD8A009EEB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B505E06F15EBFEB0009EEB90 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		B505E07015EBFEB0009EEB90 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		B505E07C15EC007D009EEB90 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B505E08215EC00E1009EEB90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B505E04B15EBFD89009EEB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505E08315EC00E1009EEB90 /* QuartzCore.framework in Frameworks */,
+				B505E07D15EC007D009EEB90 /* OpenGL.framework in Frameworks */,
+				B505E05315EBFD89009EEB90 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B505E04315EBFD89009EEB90 = {
+			isa = PBXGroup;
+			children = (
+				B505E08215EC00E1009EEB90 /* QuartzCore.framework */,
+				B505E07C15EC007D009EEB90 /* OpenGL.framework */,
+				B505E05815EBFD89009EEB90 /* FBODemo */,
+				B505E05115EBFD89009EEB90 /* Frameworks */,
+				B505E04F15EBFD89009EEB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B505E04F15EBFD89009EEB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B505E04E15EBFD89009EEB90 /* FBODemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B505E05115EBFD89009EEB90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B505E05415EBFD89009EEB90 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B505E05415EBFD89009EEB90 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B505E05215EBFD89009EEB90 /* Cocoa.framework */,
+				B505E05515EBFD89009EEB90 /* AppKit.framework */,
+				B505E05615EBFD89009EEB90 /* CoreData.framework */,
+				B505E05715EBFD89009EEB90 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B505E05815EBFD89009EEB90 /* FBODemo */ = {
+			isa = PBXGroup;
+			children = (
+				B505E06F15EBFEB0009EEB90 /* MyOpenGLView.h */,
+				B505E07015EBFEB0009EEB90 /* MyOpenGLView.m */,
+				B505E06415EBFD89009EEB90 /* AppDelegate.h */,
+				B505E06515EBFD89009EEB90 /* AppDelegate.m */,
+				B505E06715EBFD8A009EEB90 /* MainMenu.xib */,
+				B505E05915EBFD89009EEB90 /* Supporting Files */,
+			);
+			path = FBODemo;
+			sourceTree = "<group>";
+		};
+		B505E05915EBFD89009EEB90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B505E05A15EBFD89009EEB90 /* FBODemo-Info.plist */,
+				B505E05B15EBFD89009EEB90 /* InfoPlist.strings */,
+				B505E05E15EBFD89009EEB90 /* main.m */,
+				B505E06015EBFD89009EEB90 /* FBODemo-Prefix.pch */,
+				B505E06115EBFD89009EEB90 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B505E04D15EBFD89009EEB90 /* FBODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B505E06C15EBFD8A009EEB90 /* Build configuration list for PBXNativeTarget "FBODemo" */;
+			buildPhases = (
+				B505E04A15EBFD89009EEB90 /* Sources */,
+				B505E04B15EBFD89009EEB90 /* Frameworks */,
+				B505E04C15EBFD89009EEB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBODemo;
+			productName = FBODemo;
+			productReference = B505E04E15EBFD89009EEB90 /* FBODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B505E04515EBFD89009EEB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Unterberger";
+			};
+			buildConfigurationList = B505E04815EBFD89009EEB90 /* Build configuration list for PBXProject "FBODemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B505E04315EBFD89009EEB90;
+			productRefGroup = B505E04F15EBFD89009EEB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B505E04D15EBFD89009EEB90 /* FBODemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B505E04C15EBFD89009EEB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505E05D15EBFD89009EEB90 /* InfoPlist.strings in Resources */,
+				B505E06315EBFD89009EEB90 /* Credits.rtf in Resources */,
+				B505E06915EBFD8A009EEB90 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B505E04A15EBFD89009EEB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505E05F15EBFD89009EEB90 /* main.m in Sources */,
+				B505E06615EBFD89009EEB90 /* AppDelegate.m in Sources */,
+				B505E07115EBFEB0009EEB90 /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B505E05B15EBFD89009EEB90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505E05C15EBFD89009EEB90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B505E06115EBFD89009EEB90 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505E06215EBFD89009EEB90 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B505E06715EBFD8A009EEB90 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505E06815EBFD8A009EEB90 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B505E06A15EBFD8A009EEB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B505E06B15EBFD8A009EEB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B505E06D15EBFD8A009EEB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBODemo/FBODemo-Prefix.pch";
+				INFOPLIST_FILE = "FBODemo/FBODemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B505E06E15EBFD8A009EEB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBODemo/FBODemo-Prefix.pch";
+				INFOPLIST_FILE = "FBODemo/FBODemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B505E04815EBFD89009EEB90 /* Build configuration list for PBXProject "FBODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505E06A15EBFD8A009EEB90 /* Debug */,
+				B505E06B15EBFD8A009EEB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B505E06C15EBFD8A009EEB90 /* Build configuration list for PBXNativeTarget "FBODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505E06D15EBFD8A009EEB90 /* Debug */,
+				B505E06E15EBFD8A009EEB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B505E04515EBFD89009EEB90 /* Project object */;
+}
